@@ -40,6 +40,7 @@
 	},
 	"homepage": "https://hiropen1414.github.io/react-pages/",
 	"scripts":{
-		"deploy":"npm run build && gh-pages -d build"
+		"predeploy":"npm run build ",
+		"deploy":"gh-pages -d build"
 	}
 }
